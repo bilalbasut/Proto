@@ -1,0 +1,28 @@
+{
+  "websites": [
+    {
+      "name": "Karar",
+      "url": "https://www.karar.com/guncel-haberler",
+      "article_selector": "div.post-item.ia.col-6",
+      "title_selector": "span.t",
+      "link_selector": "a",
+      "image_selector": "img",
+      "date_selector": "time",
+      "content_selector": "article.article-content",
+      "text_content_selector": "div.text-content",
+      "tag_selector": "a.tag"
+    },
+    {
+      "name": "BBC Turkish",
+      "url": "https://www.bbc.com/turkce/topics/cmn3xd0epypt",
+      "article_selector": "li.bbc-t44f9r",
+      "title_selector": "h2.bbc-1slyjq2.e47bds20 a",
+      "link_selector": "h2.bbc-1slyjq2.e47bds20 a",
+      "image_selector": "img.bbc-139onq",
+      "date_selector": "time.bbc-1l2qbq5",
+      "content_selector": "article[data-component='text-block']",
+      "text_content_selector": "div[data-component='text-block']",
+      "tag_selector": "li.bbc-1msyfg1"
+    }
+  ]
+}
